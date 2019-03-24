@@ -3,6 +3,7 @@
  * unit-html:/Html.class.php
  *
  * @creation  2018-01-24
+ * @updation  2019-03-24 ROMANCE DAWN 2019
  * @version   1.0
  * @package   unit-i18n
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
@@ -15,7 +16,14 @@
  */
 namespace OP\UNIT;
 
-/** i18n
+/**
+ *
+ */
+use OP\OP_CORE;
+use OP\OP_UNIT;
+use OP\IF_UNIT;
+
+/** Html
  *
  * @creation  2018-01-24
  * @version   1.0
@@ -23,12 +31,12 @@ namespace OP\UNIT;
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
-class Html
+class Html implements IF_UNIT
 {
 	/** trait
 	 *
 	 */
-	use \OP_CORE;
+	use OP_CORE, OP_UNIT;
 
 	/** Generate HTML.
 	 *
