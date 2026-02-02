@@ -19,13 +19,13 @@ namespace OP\UNIT;
  */
 use OP\OP_CORE;
 use OP\OP_UNIT;
-use OP\IF_UNIT;
+use OP\IF_HTML;
 
 /**	Html
  *
  * @created   2018-01-24
  */
-class Html implements IF_UNIT
+class Html implements IF_HTML
 {
 	/** trait
 	 *
