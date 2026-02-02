@@ -1,12 +1,10 @@
 <?php
-/**
- * unit-html:/index.php
+/**	op-unit-html:/index.php
  *
- * @creation  2018-01-24
- * @version   1.0
- * @package   unit-html
- * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
- * @copyright Tomoaki Nagahara All right reserved.
+ * @created    2018-01-24
+ * @license    Apache-2.0
+ * @package    op-unit-html
+ * @copyright  Tomoaki Nagahara
  */
 //	...
 include(__DIR__.'/Html.class.php');
