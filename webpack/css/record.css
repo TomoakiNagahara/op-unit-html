@@ -1,0 +1,27 @@
+
+/**	op-unit-html:/webpack/css/record.css
+ *
+ * @created    2026-02-02
+ * @license    Apache-2.0
+ * @package    op-unit-html
+ * @copyright  Tomoaki Nagahara
+ */
+
+table.op.unit.html.record {
+	border: 1px solid var(--op-color-border);
+}
+
+table.op.unit.html.record tr:nth-child(1) {
+	font-weight: bold;
+	text-align: center;
+}
+
+table.op.unit.html.record th,
+table.op.unit.html.record td {
+	border: 1px solid var(--op-color-border);
+	padding: 0 0.2em;
+}
+
+table.op.unit.html.record tr td:nth-child(1) {
+	text-align: center;
+}
