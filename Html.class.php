@@ -32,6 +32,44 @@ class Html implements IF_HTML
 	 */
 	use OP_CORE, OP_CI;
 
+	/**	Displayd database record.
+	 *
+	 * The associative array records retrieved from the database are displayed on the screen in an easy-to-read format.
+	 *
+	 * @created    2026-02-02
+	 * @param      array      $record
+	 */
+	static function Record( array $record ) : void
+	{
+		//	...
+		if(!isset($record[0]) ){
+			OP()->Error('An arguments is not assoc.');
+			return;
+		}
+
+		//	...
+		OP()->Unit()->WebPack()->Auto('webpack/css/record.css');
+
+		//	...
+		$result = [];
+
+		//	...
+		$fields = array_keys($record[0]);
+
+		//	...
+		foreach( $record as $values ){
+			$result[] = array_values($values);
+		}
+
+		//	...
+		echo '<table class="op unit html record">';
+		echo '<tr><th>'.join('</th><th>', $fields).'</th></tr>';
+		foreach( $result as $values ){
+			echo '<tr><td>'.join('</td><td>', $values).'</td></tr>';
+		}
+		echo '</table>';
+	}
+
 	/** Generate HTML.
 	 *
 	 * <pre>
