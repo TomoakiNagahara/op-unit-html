@@ -1,35 +1,29 @@
 <?php
-/**
- * unit-html:/Html.class.php
+/**	op-unit-html:/Html.class.php
  *
- * @creation  2018-01-24
- * @updation  2019-03-24 ROMANCE DAWN 2019
- * @version   1.0
- * @package   unit-i18n
- * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
- * @copyright Tomoaki Nagahara All right reserved.
+ * @created    2018-01-24
+ * @updated    2019-03-24
+ * @license    Apache-2.0
+ * @package    op-unit-html
+ * @copyright  Tomoaki Nagahara
  */
 
-/** namespace
+/**	Namespace
  *
- * @creation  2018-01-24
+ * @created   2018-01-24
  */
 namespace OP\UNIT;
 
-/**
+/**	Use
  *
  */
 use OP\OP_CORE;
 use OP\OP_UNIT;
 use OP\IF_UNIT;
 
-/** Html
+/**	Html
  *
- * @creation  2018-01-24
- * @version   1.0
- * @package   unit-i18n
- * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
- * @copyright Tomoaki Nagahara All right reserved.
+ * @created   2018-01-24
  */
 class Html implements IF_UNIT
 {
