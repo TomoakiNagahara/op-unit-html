@@ -18,8 +18,8 @@ namespace OP\UNIT;
  *
  */
 use OP\OP_CORE;
-use OP\OP_UNIT;
 use OP\IF_HTML;
+use OP\OP_CI;
 
 /**	Html
  *
@@ -27,10 +27,10 @@ use OP\IF_HTML;
  */
 class Html implements IF_HTML
 {
-	/** trait
+	/**	trait
 	 *
 	 */
-	use OP_CORE, OP_UNIT;
+	use OP_CORE, OP_CI;
 
 	/** Generate HTML.
 	 *
