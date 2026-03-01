@@ -46,7 +46,7 @@ class Html implements IF_HTML
 	{
 		//	Escape tag and quote.
 		if( $escape ){
-			$string = Escape($string);
+			$string = OP()->Encode($string);
 		}
 
 		//	...
