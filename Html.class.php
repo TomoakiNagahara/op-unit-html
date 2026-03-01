@@ -162,7 +162,7 @@ class Html implements IF_HTML
 		return $result;
 	}
 
-	/** Return secure json string at wrapped div tag.
+	/**	Return secure json string at wrapped div tag.
 	 *
 	 * @param	 array		 $json
 	 * @param	 string		 $attr
@@ -170,7 +170,7 @@ class Html implements IF_HTML
 	static function Json($json, $attr=null)
 	{
 		//	Decode
-		$json = Decode($json);
+		$json = OP()->Decode($json);
 
 		//	Convert to json.
 		$json = json_encode($json);
