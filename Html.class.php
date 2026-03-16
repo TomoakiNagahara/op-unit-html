@@ -80,7 +80,7 @@ class Html implements IF_HTML
 	 * @param	 string		 $config
 	 * @param	 boolean	 $escape tag and quote
 	 */
-	static function Generate(string $string, string $attr=null, bool $escape=true)
+	static function Generate(string $string, string $attr='', bool $escape=true)
 	{
 		//	Escape tag and quote.
 		if( $escape ){
